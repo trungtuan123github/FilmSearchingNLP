@@ -1,0 +1,100 @@
+[
+    {
+        "model_name": "tfidf.pkl",
+        "qdrant_collection_name": "tfidf",
+        "qdrant_vector_size": 1423,
+        "metric": {
+            "Precision@10": 0.07174633222905617,
+            "Recall@10": 0.7141504969238051,
+            "F1@10": 0.1303474881326305,
+            "MRR": 0.5617873857225493,
+            "MAP": 0.5614298109210558,
+            "nDCG@10": 0.5983138708047724,
+            "Retrieve time": 0.23562045927810488
+        }
+    },
+    {
+        "model_name": "hellinger_pca.pkl",
+        "qdrant_collection_name": "hellinger_pca",
+        "qdrant_vector_size": 656,
+        "metric": {
+            "Precision@10": 0.038144817794604685,
+            "Recall@10": 0.3809749171793658,
+            "F1@10": 0.06933987293665576,
+            "MRR": 0.2650074369549048,
+            "MAP": 0.26481813264823184,
+            "nDCG@10": 0.29266681716583437,
+            "Retrieve time": 0.22971522012594126
+        }
+    },
+    {
+        "model_name": "bow.pkl",
+        "qdrant_collection_name": "bow",
+        "qdrant_vector_size": 1647,
+        "metric": {
+            "Precision@10": 0.0805,
+            "Recall@10": 0.7998,
+            "F1@10": 0.1461,
+            "MRR": 0.6985,
+            "MAP": 0.6985,
+            "nDCG@10": 0.7229,
+            "Retrieve time": 0.2463
+        }
+    },
+    {
+        "model_name": "ppmi.pkl",
+        "qdrant_collection_name": "ppmi",
+        "qdrant_vector_size": 1805,
+        "metric": {
+            "Precision@10": 0.0505,
+            "Recall@10": 0.5031,
+            "F1@10": 0.0918,
+            "MRR": 0.4413,
+            "MAP": 0.4409,
+            "nDCG@10": 0.4561,
+            "Retrieve time": 0.2124
+        }
+    },
+    {
+        "model_name": "word2Vec.pkl",
+        "qdrant_collection_name": "word2Vec",
+        "qdrant_vector_size": 500,
+        "metrics" : {
+            "Precision@10": 0.0483,
+            "Recall@10": 0.4818,
+            "F1@10": 0.0877,
+            "MRR": 0.4455,
+            "MAP": 0.4455,
+            "nDCG@10": 0.4547,
+            "Retrieve Time (s)": 0.2456
+        }
+    },
+    {
+        "model_name": "glove.pkl",
+        "qdrant_collection_name": "glove",
+        "qdrant_vector_size": 50,
+        "metric": {
+            "Precision@10": 0.107,
+            "Recall@10": 0.816,
+            "F1@10": 0.196,
+            "MRR": 0.784,
+            "MAP": 0.783,
+            "nDCG@10": 0.734,
+            "Retrieve time": 0.224
+        }
+    },
+    {
+        "model_name": "fastText.pkl",
+        "qdrant_collection_name": "fastText",
+        "qdrant_vector_size": 300,
+        "metric": {
+            "Precision@10": 0.102,
+            "Recall@10": 0.796,
+            "F1@10": 0.166,
+            "MRR": 0.754,
+            "MAP": 0.753,
+            "nDCG@10": 0.764,
+            "Retrieve time": 0.143
+        }
+    },
+]
